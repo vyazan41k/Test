@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Webpack Starter Kit</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div id="wrraper">
+      <section class="header-section">
+        <div class="container">
+          <div class="header-nav">
+            <div class="header-nav__logo">
+              <a href="#">
+                <picture>
+                  <source srcset="/images/clownfish.webp" type="image/webp" />
+                  <img src="/images/clown-fish.png" alt="clownfish" />
+                </picture>
+
+                Суши-шмастер
+              </a>
+            </div>
+            <button class="header-nav__btn">Сделать заказ</button>
+          </div>
+        </div>
+      </section>
+      <section class="main-section">
+        <div class="container">
+          <div class="main-section__title">
+            <h2 class="main-section__title-main">
+              Суши-шмастер - лучшее, что есть в твоем городе
+            </h2>
+            <h2 class="main-section__title-main">
+              Порадуй себя и своих родных и близких
+            </h2>
+            <p class="main-section__title-sub">
+              Ниже представлены наши самые популярные позиции за последние
+              полгода работы на карантине
+            </p>
+          </div>
+          <div class="main-section__content">
+            <h3 class="main-section__content__title">Актуальные позиции</h3>
+            <div class="main-section__content__cards">
+              <div class="main-section__content__cards__rols">
+                <div class="main-section__content__cards__rols__item">
+                  <div class="main-section__content__cards__rols__item-img">
+                    <picture>
+                      <source srcset="/images/gr.webp" type="image/webp" />
+                      <img src="./images/gr.png" alt="gr" />
+                    </picture>
+                  </div>
+                  <div class="main-section__content__cards__rols__item-title">
+                    Гринобль ролл
+                  </div>
+                  <div class="main-section__content__cards__rols__item-desc">
+                    Закажи сей вкусный ролл,<br />Он украсит ваший стол,<br />Он
+                    порадует ваш глаз,<br />Получи скорей экстаз!
+                  </div>
+                  <button
+                    class="main-section__content__cards__rols__item-status"
+                  >
+                    Заказать
+                  </button>
+                </div>
+                <div class="main-section__content__cards__rols__item">
+                  <div class="main-section__content__cards__rols__item-img">
+                    <picture>
+                      <source srcset="/images/or.webp" type="image/webp" />
+                      <img src="./images/or.png" alt="or" />
+                    </picture>
+                  </div>
+                  <div class="main-section__content__cards__rols__item-title">
+                    Оранжад ролл
+                  </div>
+                  <div class="main-section__content__cards__rols__item-desc">
+                    Закажи сей вкусный ролл,<br />Он украсит ваший стол,<br />Он
+                    порадует ваш глаз,<br />Получи скорей экстаз!
+                  </div>
+                  <button
+                    class="main-section__content__cards__rols__item-status not_available"
+                  >
+                    Недоступно к заказу
+                  </button>
+                </div>
+                <div class="main-section__content__cards__rols__item">
+                  <div class="main-section__content__cards__rols__item-img">
+                    <picture>
+                      <source srcset="/images/br.webp" type="image/webp" />
+                      <img src="./images/br.png" alt="br" />
+                    </picture>
+                  </div>
+                  <div class="main-section__content__cards__rols__item-title">
+                    Брауни ролл
+                  </div>
+                  <div class="main-section__content__cards__rols__item-desc">
+                    Закажи сей вкусный ролл,<br />Он украсит ваший стол,<br />Он
+                    порадует ваш глаз,<br />Получи скорей экстаз!
+                  </div>
+                  <button
+                    class="main-section__content__cards__rols__item-status not_available"
+                  >
+                    Недоступно к заказу
+                  </button>
+                </div>
+              </div>
+              <div class="main-section__content__cards__sets">
+                <div class="main-section__content__cards__sets__up">
+                  <div class="main-section__content__cards__sets__up-title">
+                    Синергетический сет
+                  </div>
+                  <div class="main-section__content__cards__sets__up-img">
+                    <picture>
+                      <source srcset="/images/up.webp" type="image/webp" />
+                      <img src="./images/up.png" alt="up" />
+                    </picture>
+                  </div>
+                </div>
+                <div class="main-section__content__cards__sets__title">
+                  А для аббитуриентов<br />у нас масса комплиментов!
+                </div>
+                <div class="main-section__content__cards__sets__dwn">
+                  <div class="main-section__content__cards__sets__dwn-img">
+                    <picture>
+                      <source srcset="/images/dwn.webp" type="image/webp" />
+                      <img src="./images/dwn.png" alt="dwn" />
+                    </picture>
+                  </div>
+                  <div class="main-section__content__cards__sets__dwn-title">
+                    Скарбовский сет
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="slider-section">
+        <div class="container">
+          <div class="slider-section__title">Самые выгодные предложения:</div>
+
+          <div class="slider-section__slider-box">
+            <ul class="sim-slider-list">
+              <li>
+                <img
+                  src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif"
+                  alt="screen"
+                />
+              </li>
+              <!-- это экран -->
+              <li class="sim-slider-element">
+                <picture>
+                  <source srcset="/images/1.webp" type="image/webp" />
+                  <img src="./images/1.png" alt="1" />
+                </picture>
+              </li>
+              <li class="sim-slider-element">
+                <picture>
+                  <source srcset="/images/2.webp" type="image/webp" />
+                  <img src="./images/2.png" alt="2" />
+                </picture>
+              </li>
+              <li class="sim-slider-element">
+                <picture>
+                  <source srcset="/images/3.webp" type="image/webp" />
+                  <img src="./images/3.png" alt="3" />
+                </picture>
+              </li>
+            </ul>
+            <div class="sim-slider-nav">
+              <div class="sim-slider-arrow-left"></div>
+              <div class="sim-slider-dots"></div>
+              <div class="sim-slider-arrow-right"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-section">
+        <div class="container">
+          <p class="footer-section__cop">
+            Copyright<span class="footer-section__cop-span"></span>
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
